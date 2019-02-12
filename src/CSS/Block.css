@@ -1,0 +1,38 @@
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 200px;
+  height: 250px;
+  border: 3px solid grey;
+}
+
+.boxText{
+  color: white;
+}
+
+.box:hover{
+  background-color: orange;
+}
+
+.flexClass{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap:wrap;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.centerClass{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttonClass{
+  padding-left: 25px;
+  padding-right: 25px;
+}

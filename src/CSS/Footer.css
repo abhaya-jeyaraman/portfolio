@@ -1,0 +1,10 @@
+.footertext{
+  font-family: 'Avenir';
+  font-size: 12px;
+}
+
+.footercss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
