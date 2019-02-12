@@ -6,13 +6,13 @@ class Header extends Component {
   render() {
     return (
         <Navbar color='light' light sticky="top">
-          <NavbarBrand href="/">STYFI</NavbarBrand>
+          <NavbarBrand href="/portfolio">STYFI</NavbarBrand>
           <Nav>
             <NavItem>
-              <NavLink href="/">About</NavLink>
+              <NavLink href="/portfolio">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Team</NavLink>
+              <NavLink href="/portfolio">Team</NavLink>
             </NavItem>
           </Nav>
         </Navbar>
